@@ -3,7 +3,7 @@ import os
 import requests
 
 MY_EMAIL = "aylaparayno@gmail.com"
-MY_PASSWORD = os.environ.get("AUTH_TOKEN")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 OWN_Endpoint = "https://api.openweathermap.org/data/2.5/forecast"
 api_key = os.environ.get("OWM_API_KEY")
 
